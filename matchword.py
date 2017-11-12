@@ -19,3 +19,10 @@ def get_match_keyword(word, possibilities, n = 3, cutoff = 0.6):
 
 	result = _nl(n, result)
 	return [x for score, x in result]
+
+
+def if_one_close_match(word, data):
+	if len(get_match_keyword(word, data.keys())) > 0:
+		return True
+	else:
+		return False
