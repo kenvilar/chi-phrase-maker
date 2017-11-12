@@ -1,5 +1,6 @@
 import json
-from matchword import get_match_keyword, if_one_close_match, similarity_check
+
+from matchword import if_one_close_match, similarity_check
 
 data = json.load(open('phrases.json', 'r'))
 

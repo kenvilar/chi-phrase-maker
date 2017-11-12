@@ -12,9 +12,7 @@ def get_match_keyword(word, possibilities, n = 3, cutoff = 0.6):
 	s.set_seq2(word)
 	for x in possibilities:
 		s.set_seq1(x)
-		if s.real_quick_ratio() >= cutoff and \
-						s.quick_ratio() >= cutoff and \
-						s.ratio() >= cutoff:
+		if s.real_quick_ratio() >= cutoff and s.quick_ratio() >= cutoff and s.ratio() >= cutoff:
 			result.append((s.ratio(), x))
 
 	result = _nl(n, result)
