@@ -11,5 +11,5 @@ def translate(myWord):
 
 
 word = input('Enter your keyword/s: ')
-translate = translate(word)
+translate = translate(word.lower())
 print(translate)
