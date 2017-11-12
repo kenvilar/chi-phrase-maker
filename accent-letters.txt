@@ -1,0 +1,15 @@
+1. The first tone (Flat or High Level Tone) is represented by a macron (ˉ) added to the pinyin vowel:
+ā (ɑ̄) ē ī ō ū ǖ Ā Ē Ī Ō Ū Ǖ
+
+2. The second tone (Rising or High-Rising Tone) is denoted by an acute accent (ˊ):
+á (ɑ́) é í ó ú ǘ Á É Í Ó Ú Ǘ
+
+3. The third tone (Falling-Rising or Low Tone) is marked by a caron/háček (ˇ). It is not the rounded breve (˘),
+though a breve is sometimes substituted due to font limitations.
+ǎ (ɑ̌) ě ǐ ǒ ǔ ǚ Ǎ Ě Ǐ Ǒ Ǔ Ǚ
+
+4. The fourth tone (Falling or High-Falling Tone) is represented by a grave accent (ˋ):
+à (ɑ̀) è ì ò ù ǜ À È Ì Ò Ù Ǜ
+
+5. The fifth tone (Neutral Tone) is represented by a normal vowel without any accent mark:
+a (ɑ) e i o u ü A E I O U Ü
