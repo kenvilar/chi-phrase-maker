@@ -5,9 +5,11 @@ data = json.load(open('phrases.json', 'r'))
 
 def translate(word):
 	if word in data:
-		print(data[word])
+		return data[word]
 	else:
-		print('Your keywords doesn\'t exist.')
+		return 'Your keywords doesn\'t exist.'
 
 
-translate('Hello')
+word = input('Enter your keyword/s: ')
+translate = translate(word)
+print(translate)
