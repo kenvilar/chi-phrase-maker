@@ -10,6 +10,6 @@ def translate(myWord):
 		return 'Your keywords doesn\'t exist.'
 
 
-myWord = input('Enter your keyword/s: ')
-translate = translate(myWord)
+word = input('Enter your keyword/s: ')
+translate = translate(word)
 print(translate)
