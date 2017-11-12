@@ -33,6 +33,6 @@ def similarity_check(myWord, data):
 		correctWord = get_match_keyword(myWord, data.keys())[0]
 		return data[correctWord]
 	elif yesOrNo.lower() == 'n':
-		return 'Your keywords doesn\'t exist.'
+		return 'Okay.'
 	else:
 		return 'Just Y or N only'

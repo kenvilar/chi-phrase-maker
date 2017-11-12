@@ -8,6 +8,8 @@ data = json.load(open('phrases.json', 'r'))
 def translate(myWord):
 	if myWord in data:
 		return data[myWord]
+	elif myWord.lower() in data:
+		return data[myWord.lower()]
 	elif if_one_close_match(myWord, data):
 		return similarity_check(myWord, data)
 	else:
@@ -15,5 +17,5 @@ def translate(myWord):
 
 
 word = input('Enter your keyword/s: ')
-translate = translate(word.lower())
+translate = translate(word)
 print(translate)
