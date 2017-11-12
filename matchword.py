@@ -5,7 +5,7 @@ from heapq import nlargest as _nl
 def get_match_keyword(word, possibilities, n = 3, cutoff = 0.6):
 	if not n > 0:
 		raise ValueError("n must be > 0: %r" % (n,))
-	if not 0.0 <= cutoff <= 1.0:
+	if not 1.0 >= 0.0 <= cutoff:
 		raise ValueError("cutoff must be in [0.0, 1.0]: %r" % (cutoff,))
 	result = []
 	s = SequenceMatcher()
